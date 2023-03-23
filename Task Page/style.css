@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #67676729;
+}
+.nav{
+    display: flex;
+    width:100vw;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 1px;
+    height: 70px;
+    background-color: #FFFFFF;
+}
+.peram{
+    position: absolute;
+    font-size: 36px;
+    margin-left: 116px;
+    padding: 15px;
+}
+span{
+    word-spacing: 5px;
+    margin-left: 8px;
+    padding: 12px;
+    color: cornflowerblue;
+   
+}
+/* .mainbox{
+    height: 100%;
+    width: 100%;
+    background-color: #67676729;
+    height: 680px;
+} */
+.peram1{
+    font-size: 20px;
+    padding: 10%;
+    font-size: 20px;
+    color: cornflowerblue;
+       
+}
+.fa-sharp{
+    padding: 20px;
+    width: 10px;
+    
+}
+.ancor{
+    text-decoration: none;
+    font-size: large;
+    color: rgb(61, 59, 59);
+    margin-left: 70%;
+    margin-top: 10px;  
+}
+.box{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    left: 150px;       
+}
+.boox{
+    width: 260px;
+    height: 250px;
+    background-color:  #FFFFFF;
+    border-radius: 15px;
+    border: 2px;
+    margin: 15px 80px;
+    
+}
+.boox:hover{
+    box-shadow: 3px 0px 7px 5px  #d2cdcd;
+}
+.input{
+    margin-left: 20px;
+    margin-top: 20px;   
+}
+.del{
+    margin-left: 10px;
+    color: gray;
+}
+h3{
+    margin-left: 50px;
+    margin-top: 30px;
+    color: rgb(81, 80, 80);
+} 
+.tpa{
+    text-decoration: none;
+}
+
+/* index2.html */
+
+ .box1{
+    justify-content: center;
+    position: relative;
+    
+} 
+.item5{
+    width: 368px;
+    height: 200px;
+    background-color: white;
+    margin-top: -30%;
+    margin-bottom: 200px;
+    margin-left: 3px;
+    border-radius: 15px;
+    border: 2px solid black;
+    position: absolute;
+    /* top: 10%; */
+    left: 30%;
+}
+.item6{
+    width: 328px;
+    border-radius: 5px;
+    height: 30px;
+    position: relative;
+    left: 20px;
+    top: 25px;
+    background-color: #F7F7F7;
+}
+button{
+    background-color: #008CBA;
+    color: white;
+    width: 150px;
+    height: 40px;
+    margin-top: 53px;
+    margin-left: 200px;
+    border: none;
+    border-radius: 5px;
+   
+}
+.peram2{
+ font-size: 20px;
+ padding: 9px;
+ margin-left: 15px;
+}
+.blur{
+    filter: blur(1px);
+}
+
+/* Trip.html page */
+
+.container2{
+    background-color: #67676729;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+
+}
+.item7{
+    border: 2px;
+    width: 261px;
+    height: 290px;
+    background-color:  #FFFFFF;
+    margin: 15px;
+    border-radius: 15px;
+    margin-left: 40%;
+    
+}
+.backtrip{
+    text-decoration: none;
+    font-size: large;
+    color: rgb(61, 59, 59);
+    margin-left: 550px;
+    margin-top: 20px;
+}
+.ancortrip{
+    text-decoration: none;
+    font-size: large;
+    color: rgb(61, 59, 59);
+    margin-left: 215px;
+    margin-top: 20px;
+}
+.fa-solid{
+    margin: 10px;
+}
+.blur{
+    filter: blur(1px);
+}
+.fa-cog{
+    color: #008CBA;
+
+}
+.cross{
+    width: 5px;
+    /* margin-left: 10%; */
+}
+
+/* Mobile screen */
+
+@media screen and (min-width: 300px) and (max-width: 500px)
+{
+     .container{
+         /* position: relative; */
+        background-color: #67676729;
+        width: auto;
+        height: 500%;
+        top: 10%;
+    }
+    .nav{
+        /* position: relative; */
+        /* right: 20px; */
+        /* width: 115%; */
+    } 
+    /* .peram{
+        align-items: center;
+    } */
+    #add{
+        display: none;
+    }
+    .box{
+        left: -59px;
+        width: 300px;
+    }
+    /* .ancor{
+        margin-left: 36%;
+    } */
+    .boox{
+        width: 260px;
+    }
+    /* .nav{
+        right: 20%;
+    } */
+    .item5{
+        /* position: relative; */
+        width: 256px;
+        left: 79px;
+        margin-top: -1273px;
+    }
+    .item6{
+        width: 227px;
+        height: 33px;
+    }
+    button{
+        margin-left: 98px;
+        margin-top: 50px;
+    }
+    .backtrip{
+        margin-left: 10px;
+    }
+    .ancortrip{
+        margin-left: 14px;
+    }
+    .item7{
+        margin-left: 18px;
+    }
+}
+
+
+/* Tab screen */
+/* @media screen and (min-width: 500px) and (max-width: 1000px)
+{
+    .container{
+        background-color: #67676729;
+        height: 400%;
+        width: 100%;
+    }
+    .peram{
+        align-items: center;
+    }
+    .ancor{
+        margin-left: 36%;
+    }
+    .box{
+        position: relative;
+        left: -59px;
+        width: 50px;
+     
+    }
+    .boox{
+        width: 260px;
+        height: 200px;
+    }
+} */
