@@ -54,7 +54,7 @@ span{
 .box{
     display: flex;
     flex-wrap: wrap;
-    left: 150px;       
+    margin-left: 140px;       
 }
 .boox{
     width: 260px;
